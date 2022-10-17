@@ -10,7 +10,7 @@ const Main = () => {
           <div className="slide text-center d-flex align-items-center justify-content-center">
             <div className="bg"></div>
             <div className="heading">
-              <h1 className="head mb-4">Regional Language Club</h1>
+              <h1 className="head mb-4">Regional Languages Club</h1>
               <h2 className="tagline my-4">Embracing Diversity</h2>
             </div>
           </div>
