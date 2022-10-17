@@ -1,5 +1,18 @@
-.language img{
+.language img {
     width: 70px;
     height: 70px;
     border-radius: 5px
+}
+
+.language p {
+    color: #638f91;
+}
+
+.language {
+    transition: 0.2s ease-in-out;
+}
+
+.language:hover {
+    transform: translateY(-5px);
+    color: #638f91;
 }

@@ -7,16 +7,18 @@
 
 .slide {
     min-height: 60vh;
-    background: url("../assets/images/main-blur3.png") center/cover no-repeat;
+    background: url("../assets/images/bg/main-blur3.png") center/cover no-repeat;
 }
 
 .heading h1 {
-    font-family: 'Arima', cursive;
+    /* font-family: 'Arima', cursive; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 80px;
     font-weight: bold;
 }
 
 .heading h2 {
-    font-family: 'Allura', cursive;
+    /* font-family: 'Allura', cursive; */
+    font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
 }

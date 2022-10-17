@@ -1,14 +1,10 @@
-/* .nav-link:hover {
-    color:  !important;
-} */
-
-/* .nav-link:focus {
-    color: #faa75a !important;
+.navbar-brand img{
+    width: 100px;
 }
 
-.nav-link:active {
-    color: #faa75a !important;
-} */
+.nav-link{
+    font-weight:500 !important;
+}
 
 .navbar-toggler {
     width: 20px;

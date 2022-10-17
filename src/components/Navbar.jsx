@@ -2,16 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
+import images from "../constant/images";
+
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg py-3 bg-light shadow-sm">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">RLC</NavLink>
+          <NavLink className="navbar-brand" to="/"><img src={images.logo} alt="Logo"/></NavLink>
           <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="toggler-icon top-bar"></span>
-            <span class="toggler-icon middle-bar"></span>
-            <span class="toggler-icon bottom-bar"></span>
+            <span className="toggler-icon top-bar"></span>
+            <span className="toggler-icon middle-bar"></span>
+            <span className="toggler-icon bottom-bar"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

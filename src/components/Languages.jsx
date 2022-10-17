@@ -7,7 +7,7 @@ const Languages = () => {
   return (
     <>
       <div className='container my-5'>
-        <Marquee speed={70} pauseOnHover={true} gradientWidth={30}>
+        <Marquee speed={30} pauseOnHover={true} gradientWidth={30}>
           <div className="languages d-flex">
             {data.language.map((item) => {
               return (
