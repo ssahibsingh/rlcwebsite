@@ -1,7 +1,3 @@
-.navabar {
-    position: fixed !important;
-}
-
 .navbar-brand img {
     width: 100px;
 }
@@ -9,6 +5,11 @@
 .nav-link {
     font-weight: 500 !important;
 }
+
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+    color: var(--dark-green) !important;
+}
+
 
 .navbar-toggler {
     width: 20px;
@@ -49,7 +50,6 @@
 }
 
 /* when navigation is clicked */
-
 .navbar-toggler .top-bar {
     margin-top: 0px;
     transform: rotate(135deg);

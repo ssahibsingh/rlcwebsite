@@ -1,20 +1,37 @@
-/* width */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #999;
     border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #666;
 }
+
+/* Rasputin Font */
+@font-face {
+    font-family: rasputin;
+    src: url(./assets/fonts/Rasputin.otf);
+}
+
+/* Color Variables */
+:root{
+    --dark-green: #517577;
+    --green: #638f91;
+}
+
+/* Text-Selection Color */
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #91cfd2;
+  }
+  
+  ::selection {
+    color: white;
+    background: #75a5a8;
+  }

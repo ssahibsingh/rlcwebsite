@@ -6,9 +6,10 @@ const Home = () => {
         <Navbar />
         <Main />
         <About />
-        <Magazine />
         <Quote/>
         <Word />
+        {/* <Magazine /> */}
+        
         <Footer />
     </>
   )

@@ -1,0 +1,25 @@
+.word .heading{
+    font-size: 16px;
+    color: #555;
+    letter-spacing:5px;
+    word-spacing: 5px;
+    font-weight: 400;
+}
+
+.word .details .actualWord{
+    font-size: 72px;
+    color: var(--green);
+    font-weight: 400;
+
+}
+.word .details .transliteration{
+    font-size: 26px;
+    color: #222;
+    font-weight: 400;
+}
+.word .details .meaning{
+    font-size: 25px;
+    color: #222;
+    font-weight: 400;
+}
+.word .details{}

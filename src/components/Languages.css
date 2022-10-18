@@ -5,7 +5,7 @@
 }
 
 .language p {
-    color: #638f91;
+    color: var(--green);
 }
 
 .language {
@@ -14,5 +14,5 @@
 
 .language:hover {
     transform: translateY(-5px);
-    color: #638f91;
+    color: var(--green);
 }

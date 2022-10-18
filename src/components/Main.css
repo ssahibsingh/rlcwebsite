@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 
 .main {
@@ -7,18 +8,23 @@
 
 .main .slide {
     min-height: 60vh;
-    background: url("../assets/images/bg/main-blur3.png") center/cover no-repeat;
+    background: url("../assets/images/bg/main-blur3.png") center/cover no-repeat fixed;
 }
 
 .heading h1 {
     /* font-family: 'Arima', cursive; */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-size: 80px; */
     font-weight: bold;
+    font-family: rasputin;
+    color: var(--dark-green);
 }
 
 .heading h2 {
     /* font-family: 'Allura', cursive; */
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-size: 50px; */
+    font-family: 'Allura', cursive;
+    /* color: #638f91; */
+
 }
