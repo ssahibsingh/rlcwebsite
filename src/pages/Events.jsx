@@ -1,8 +1,12 @@
 import React from 'react'
-
+import "./style.css"
 const Events = () => {
   return (
-    <div>Events</div>
+    <>
+      <div className="eventPage minHeight">
+        
+      </div>
+    </>
   )
 }
 

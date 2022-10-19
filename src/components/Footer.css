@@ -1,0 +1,10 @@
+footer{
+    position:absolute;
+    width: 100%;
+}
+
+
+footer .social-media a{
+    color: var(--dark-green);
+    font-size: 25px;
+}

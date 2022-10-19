@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar } from '../components'
-
+import "./style.css"
 const Contact = () => {
   return (
     <>
-      <Navbar/>
+      <div className="contactPage minHeight">
+
+      </div>
     </>
   )
 }

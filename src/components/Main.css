@@ -3,7 +3,9 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 .main {
-    min-height: 90vh;
+    min-height: 100vh;
+    position: relative;
+    margin: 88px 0;
 }
 
 .main .slide {

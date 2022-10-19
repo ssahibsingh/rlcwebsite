@@ -6,7 +6,7 @@ const Quote = () => {
     <>
       <div className="quote my-5">
         <div className="container">
-          <h1 className="heading text-center">Shaers</h1>
+          <h1 className="heading text-center headColor">Shaers</h1>
           <Carousel interval={2000} indicators={false} className="my-5">
             <Carousel.Item>
               <img
@@ -15,7 +15,7 @@ const Quote = () => {
                 alt=""
               />
               <Carousel.Caption>
-                <h3></h3>
+                <h3>Helloas</h3>
                 <p>
                   
                 </p>
@@ -29,8 +29,8 @@ const Quote = () => {
               />
 
               <Carousel.Caption>
-                <h3></h3>
-                <p></p>
+                <h3>Helloas</h3>
+                <p>ascaxsa</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

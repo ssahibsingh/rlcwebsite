@@ -1,0 +1,7 @@
+.minHeight{
+    min-height: calc(100vh - 86px - 88px);
+}
+
+.aboutPage{
+    margin-top: 86px;
+}

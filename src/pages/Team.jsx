@@ -1,8 +1,12 @@
 import React from 'react'
-
+import "./style.css"
 const Team = () => {
   return (
-    <div>Team</div>
+    <>
+      <div className="teamPage minHeight">
+
+      </div>
+    </>
   )
 }
 

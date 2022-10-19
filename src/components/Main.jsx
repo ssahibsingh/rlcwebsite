@@ -7,7 +7,7 @@ const Main = () => {
     <>
       <div className="main">
         <div className="content">
-          <div className="slide text-center d-flex align-items-center justify-content-center">
+          <div className="slide text-center d-flex align-items-center justify-content-center shadow-sm">
             <div className="bg"></div>
             <div className="heading">
               <h1 className="mb-4 display-1">Regional Languages Club</h1>

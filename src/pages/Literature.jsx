@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import "./style.css"
 const Literature = () => {
   return (
-    <div>Literature</div>
-  )
-}
+    <>
+      <div className="literaturePage minHeight"></div>
+    </>
+  );
+};
 
-export default Literature
+export default Literature;

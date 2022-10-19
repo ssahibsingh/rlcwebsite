@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Footer, Navbar } from './components';
 import {About, Contact, Events, Home, Literature, Team} from './pages'
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -15,7 +17,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           {/* <Route path="/magazine" element={<Magazine />} /> */}
         </Routes>
-
+      <Footer />
       </BrowserRouter>
     </>
   );

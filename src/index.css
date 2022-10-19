@@ -2,13 +2,16 @@
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #999;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #666;
 }
@@ -20,18 +23,24 @@
 }
 
 /* Color Variables */
-:root{
+:root {
     --dark-green: #517577;
     --green: #638f91;
 }
 
 /* Text-Selection Color */
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+    /* Code for Firefox */
     color: white;
     background: #91cfd2;
-  }
-  
-  ::selection {
+}
+
+::selection {
     color: white;
     background: #75a5a8;
-  }
+}
+
+/* Utility */
+.headColor {
+    color: var(--dark-green)
+}
