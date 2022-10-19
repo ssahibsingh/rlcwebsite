@@ -29,7 +29,7 @@ const AboutPage = () => {
               vel vitae excepturi enim placeat reiciendis eius!
             </p>
 
-            <h2 className="headColor">Patron and Faculy Coordinator</h2>
+            <h2 className="headColor text-center">Patron and Faculy Coordinator</h2>
             <div className="row">
               <div className="col-md-6 d-flex justify-content-center">
                 <div>
