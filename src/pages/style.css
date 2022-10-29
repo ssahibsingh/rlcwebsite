@@ -2,6 +2,26 @@
     min-height: calc(100vh - 86px - 88px);
 }
 
-.aboutPage{
+.aboutPage, .eventPage{
     margin-top: 86px;
+}
+
+.eventPage .bgImg{
+    background: url("../assets/images/bg/bg-event2.png") no-repeat center center;
+    width: 100%;
+    min-height: 30vh;
+    color:white;
+    position:absolute;
+    filter: blur(3px);
+}
+.eventPage .heading{
+    min-height: 30vh;
+    color:white;
+    position:relative;
+}
+.eventPage .card{
+    transition: 0.2s ease-in-out;
+}
+.eventPage .card:hover{
+    transform: translateY(-3px);
 }
