@@ -5,6 +5,17 @@
 .navbar-brand img {
     width: 100px;
 }
+.navbar-util{
+    min-width: 100px;
+}
+
+@media screen and (max-width: 991.5px) {
+    .navbar-util{
+        /* min-width: none ; */
+        display: none;
+    }
+    
+}
 
 .nav-link {
     font-weight: 500 !important;

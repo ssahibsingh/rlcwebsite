@@ -2,7 +2,7 @@
     min-height: calc(100vh - 86px - 88px);
 }
 
-.aboutPage, .eventPage, .teamPage{
+.aboutPage, .eventPage, .teamPage, .contactPage{
     margin-top: 86px;
 }
 
@@ -13,6 +13,26 @@
 .teamPage .teamImg{
     height: 250px;
     /* width: 100%; */
+}
+
+.contactPage .links{
+    color: var(--black)
+}
+.contactPage .link-cards{
+    transition: .2s ease-in-out;
+}
+
+.contactPage .link-cards:hover{
+    transform: translateY(-5px);
+}
+
+.contactPage .btn{
+    background: var(--green);
+    color: white;
+}
+
+.contactPage .btn:hover{
+    border: 1px solid var(--green); 
 }
 
 .eventPage .bgImg{
