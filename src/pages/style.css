@@ -2,8 +2,17 @@
     min-height: calc(100vh - 86px - 88px);
 }
 
-.aboutPage, .eventPage{
+.aboutPage, .eventPage, .teamPage{
     margin-top: 86px;
+}
+
+.aboutPage .facultyImg{
+    height: 250px;
+}
+
+.teamPage .teamImg{
+    height: 250px;
+    /* width: 100%; */
 }
 
 .eventPage .bgImg{

@@ -7,7 +7,7 @@ import images from "../constant/images";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg py-3 bg-light shadow-sm sticky-top">
+      <nav className="navbar navbar-expand-lg py-3 shadow-sm sticky-top">
         <div className="container">
           <NavLink className="navbar-brand" to="/"><img src={images.logo} alt="Logo" /></NavLink>
           <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

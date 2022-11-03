@@ -3,7 +3,7 @@ import "./Word.css"
 const Word = () => {
   return (
     <>
-      <div className="word my-5 py-5">
+      <div className="word my-5 py-5 bg-light">
         <div className="container text-center">
           <h2 className='heading'>WORD OF THE DAY</h2>
           <div className="details">

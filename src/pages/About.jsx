@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
 
+import coordinator from "../assets/images/coordinator.png";
+import director from "../assets/images/director.png";
+
 const AboutPage = () => {
   return (
     <>
@@ -50,29 +53,39 @@ const AboutPage = () => {
 
             <div className="my-4">
               <h2 className="headColor text-center">
-                Patron and Faculy Coordinator
+                Patron and Faculty Coordinator
               </h2>
-              <div className="row mt-5">
-                <div className="col-md-6 d-flex justify-content-center text-center">
-                  <div>
-                    <img src="https://picsum.photos/250/300" alt="" />
-                    <h4 className="display-5 name fs-4 pt-2">
-                      Dr Binod Kumar Kanaujia
-                    </h4>
-                    <h5 className="display-6 designation fs-5">
-                      Director, NITJ
-                    </h5>
+              <div className="d-flex justify-content-center">
+                <div className="row mt-5">
+                  <div className="col-md-6 d-flex justify-content-center text-center">
+                    <div>
+                      <img
+                        className="img-fluid facultyImg"
+                        src={director}
+                        alt=""
+                      />
+                      <h4 className="display-5 name fs-4 pt-2">
+                        Dr Binod Kumar Kanaujia
+                      </h4>
+                      <h5 className="display-6 designation fs-5">
+                        Director, NITJ
+                      </h5>
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-6 d-flex justify-content-center text-center">
-                  <div>
-                    <img src="https://picsum.photos/250/300" alt="" />
-                    <h4 className="display-5 name fs-4 pt-2">
-                      Dr Jagwinder Singh
-                    </h4>
-                    <h5 className="display-6 designation fs-5">
-                      Associate Professor & HOD H&M
-                    </h5>
+                  <div className="col-md-6 d-flex justify-content-center text-center">
+                    <div>
+                      <img
+                        className="img-fluid facultyImg"
+                        src={coordinator}
+                        alt=""
+                      />
+                      <h4 className="display-5 name fs-4 pt-2">
+                        Dr Jagwinder Singh
+                      </h4>
+                      <h5 className="display-6 designation fs-5">
+                        Associate Professor & HOD H&M
+                      </h5>
+                    </div>
                   </div>
                 </div>
               </div>
