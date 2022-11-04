@@ -52,7 +52,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #111;
+    background: var(--green);
     border-radius: 3px;
     opacity: 1;
     left: 0;
@@ -100,5 +100,5 @@
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: #111;
+    background: var(--green);
 }

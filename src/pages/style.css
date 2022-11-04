@@ -35,6 +35,13 @@
     border: 1px solid var(--green); 
 }
 
+.literaturePage .writings{
+    transition: .2s ease-in-out;
+}
+.literaturePage .writings:hover{
+    transform: translateY(-10px);
+}
+
 .eventPage .bgImg{
     background: url("../assets/images/bg/bg-event2.png") no-repeat center center;
     width: 100%;
