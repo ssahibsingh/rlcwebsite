@@ -2,7 +2,7 @@
     min-height: calc(100vh - 86px - 88px);
 }
 
-.aboutPage, .eventPage, .teamPage, .contactPage{
+.aboutPage, .eventPage, .teamPage, .contactPage, .literaturePage{
     margin-top: 86px;
 }
 

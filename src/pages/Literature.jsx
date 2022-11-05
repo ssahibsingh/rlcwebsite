@@ -33,13 +33,12 @@ const Literature = () => {
 
           <div className="row">
             {data.map((item) => {
-              {
-                /* let ID = slug(item.title + item.writer + item.id) */
-              }
+              let ID = slug(item.title + item.writer + item.id);
               return (
                 <>
                   <div
                     key={item.id}
+                    id={ID}
                     className="writings col-md-4 col-sm-6 col-12 mb-5"
                   >
                     <div className="card border-0 shadow-sm p-4">
