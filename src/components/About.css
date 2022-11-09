@@ -1,0 +1,14 @@
+.about .content{
+    width: 65vw;
+    font-size: 20px;
+    color: var(--black);
+    text-justify: inter-character;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width:768px){
+    .about .content{
+        width: 100%;
+        font-size: 16px;
+    }
+}

@@ -9,6 +9,12 @@
 .aboutPage .facultyImg{
     height: 250px;
 }
+.aboutPage .content{
+    width: 65vw;
+    font-size: 20px;
+    color: var(--black);
+    text-justify: inter-character;
+}
 
 .teamPage .teamImg{
     height: 250px;

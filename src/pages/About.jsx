@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-
 import coordinator from "../assets/images/coordinator.png";
 import director from "../assets/images/director.png";
 
@@ -10,28 +9,22 @@ const AboutPage = () => {
       <div className="aboutPage">
         <div className="container">
           <h1 className="my-3 text-center py-3 headColor">About Us</h1>
-          <div className="content">
-            <div className="px-4">
+          <div className="content mx-auto">
+            <div className="px-4 text-center">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                veniam amet non praesentium, optio iusto iste voluptate,
-                incidunt, ratione unde illum fugit. Doloremque natus obcaecati
-                hic fuga consectetur incidunt aperiam. Doloribus culpa
-                temporibus debitis veniam cupiditate ullam voluptates autem id
-                tempora. Nemo itaque aspernatur ducimus odio ipsum sit commodi
-                perspiciatis voluptatum deleniti dolore nobis laborum corporis
-                dolor magni inventore natus, dolorem tempora ad exercitationem,
-                iste similique in error unde nisi. Assumenda, quam
-                exercitationem quod eligendi debitis magni inventore. Itaque
-                laudantium labore, dolore ipsa dignissimos asperiores. Unde qui
-                eligendi quo saepe, illum odit autem quia assumenda neque
-                cupiditate laboriosam ut cumque, voluptates quisquam delectus?
-                Sunt eius illum sit harum ullam corrupti non quae quo amet ipsam
-                officiis aliquid omnis dolorem, ea cum ducimus earum. Rerum
-                error excepturi odio. Qui obcaecati eum ab reprehenderit,
-                delectus cumque minus corrupti vero nulla, mollitia est velit
-                eaque nemo iusto. Sit eaque quisquam atque doloremque vel vitae
-                excepturi enim placeat reiciendis eius!
+                Considering how important Language is in society, and how quickly
+                we are forgetting our Regional Languages, RLC is an
+                initiative for the Promotion and Preservation of literature
+                written in Regional Languages of India, and to build a community
+                of students from different cultural and lingual backgrounds where
+                they can discuss their works of literature and learn from each
+                other.
+              </p>
+              <p>
+
+                The focus of the club is to Read, Learn and Appreciate the works
+                of Literature written in Regional Languages. In short, this is a
+                poetry and literature club for regional languages of India
               </p>
             </div>
 
