@@ -27,50 +27,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-6 my-3 text-center">
-              <form>
-                <div className="mb-3">
-                  <input
-                    type="text"
-                    className="form-control form-control-lg"
-                    placeholder="Name"
-                  />
-                </div>
-                <div className="mb-3">
-                  <input
-                    type="number"
-                    className="form-control form-control-lg"
-                    placeholder="Phone Number"
-                  />
-                </div>
-                <div className="mb-3">
-                  <input
-                    type="email"
-                    className="form-control form-control-lg"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="mb-3">
-                  <input
-                    type="text"
-                    className="form-control form-control-lg"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div className="mb-3">
-                  <textarea
-                    className="form-control form-control-lg"
-                    placeholder="Message"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <div className="mb-3">
-                  <button className="btn btn-lg">Send</button>
-                </div>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
     </>

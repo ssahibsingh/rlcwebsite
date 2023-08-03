@@ -6,7 +6,7 @@ const Quote = () => {
     <>
       <div className="quote my-5">
         <div className="container">
-          <h1 className="heading text-center headColor">Shaers</h1>
+          <h1 className="heading text-center headColor">Previous Events</h1>
           <Carousel interval={2000} indicators={false} className="my-5">
             <Carousel.Item>
               <img
