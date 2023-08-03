@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="about my-5 py-5">
+      <div className="about mb-5 pb-5">
         <div className="container">
           <h1 className="heading text-center headColor">About</h1>
           <div className="content my-5 text-center mx-auto">
@@ -16,8 +16,7 @@ const About = () => {
               they can discuss their works of literature and learn from each
               other.
             </p>  
-            <p>
-              
+            <p> 
               The focus of the club is to Read, Learn and Appreciate the works
               of Literature written in Regional Languages. In short, this is a
               poetry and literature club for regional languages of India
