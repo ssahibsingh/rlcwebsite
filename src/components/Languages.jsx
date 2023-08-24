@@ -12,7 +12,7 @@ const Languages = () => {
             {data.language.map((item) => {
               return (
                 <a className="language mx-3 text-center text-decoration-none " key={item.id} href={item.link} target="_blank" rel="noreferrer">
-                  <img src={item.img} alt={item.name} className="mb-3 img-fluid" />
+                  <img src={item.img} alt={item.name} className="mb-3 img-fluid" loading="lazy" />
                   <p>{item.name}</p>
                 </a>
               );

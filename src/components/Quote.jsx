@@ -107,10 +107,13 @@ const Quote = () => {
                       src={mushaira2023}
                       class="d-block carousel-img"
                       alt="Mushaira 2023"
+                      loading="lazy"
                     />
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="headColor fw-bold">
-                        <span class="carousel-bg-text rounded px-2">Mushaira 2023</span>
+                        <span class="carousel-bg-text rounded px-2">
+                          Mushaira 2023
+                        </span>
                       </h5>
                     </div>
                   </div>
@@ -119,10 +122,13 @@ const Quote = () => {
                       src={utkansh2023}
                       class="d-block carousel-img"
                       alt="Utkansh 2023"
+                      loading="lazy"
                     />
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="headColor fw-bold">
-                        <span class="carousel-bg-text rounded px-2">Utkansh 2023</span>
+                        <span class="carousel-bg-text rounded px-2">
+                          Utkansh 2023
+                        </span>
                       </h5>
                     </div>
                   </div>
@@ -131,10 +137,13 @@ const Quote = () => {
                       src={utkansh20232}
                       class="d-block carousel-img"
                       alt="Utkansh 2023"
+                      loading="lazy"
                     />
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="headColor fw-bold">
-                        <span class="carousel-bg-text rounded px-2">Utkansh 2023</span>
+                        <span class="carousel-bg-text rounded px-2">
+                          Utkansh 2023
+                        </span>
                       </h5>
                     </div>
                   </div>
@@ -143,10 +152,13 @@ const Quote = () => {
                       src={lohri2023}
                       class="d-block carousel-img"
                       alt="Lohri 2023"
+                      loading="lazy"
                     />
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="headColor fw-bold">
-                        <span class="carousel-bg-text rounded px-2">Lohri 2023</span>
+                        <span class="carousel-bg-text rounded px-2">
+                          Lohri 2023
+                        </span>
                       </h5>
                     </div>
                   </div>
