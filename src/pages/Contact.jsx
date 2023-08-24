@@ -13,7 +13,7 @@ const Contact = () => {
               <i className="fa-regular fa-envelope fs-2"></i>
                 <h4 class="my-2 headColor">Our Email Address</h4>
                 <a class="text-decoration-none links fs-5" href="mailto:rlc.nitj@gmail.com">
-                  rlc.nitj@gmail.com
+                  rlclub@nitj.ac.in
                 </a>
               </div>
             </div>
