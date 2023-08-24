@@ -6,7 +6,7 @@ import "./Languages.css"
 const Languages = () => {
   return (
     <>
-      <div className='container my-3 py-5'>
+      <div className='container mt-3 pt-5'>
         <Marquee speed={30} pauseOnHover={true} gradientWidth={30}>
           <div className="languages d-flex">
             {data.language.map((item) => {
